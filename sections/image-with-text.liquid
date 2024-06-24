@@ -51,6 +51,15 @@
               {{
                 section.settings.image | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
               }}
+
+            {%- elsif section.settings.video-url -%}
+              <video
+                autoplay
+                muted
+                loop="{{ section.settings.video-image-url }}">
+                <source src="{{ section.settings.video-url }}" type="video/mp4">
+              </video>
+
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
@@ -109,6 +118,16 @@
         "label": "t:sections.image-with-text.settings.image.label"
       },
       {
+        "type": "url",
+        "id": "video-url",
+        "label": "Video URL"
+      },
+      {
+        "type": "url",
+        "id": "video-image-url",
+        "label": "Video Image URL"
+      },
+      {
         "type": "select",
         "id": "height",
         "options": [
@@ -128,8 +147,7 @@
         ],
         "default": "adapt",
         "label": "t:sections.image-with-text.settings.height.label"
-      },
-      {
+      }, {
         "type": "select",
         "id": "desktop_image_width",
         "options": [
@@ -147,8 +165,7 @@
         "default": "medium",
         "label": "t:sections.image-with-text.settings.desktop_image_width.label",
         "info": "t:sections.image-with-text.settings.desktop_image_width.info"
-      },
-      {
+      }, {
         "type": "select",
         "id": "layout",
         "options": [
