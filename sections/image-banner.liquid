@@ -63,7 +63,7 @@
       <source src="{{ section.settings.video_background }}" type="video/mp4">
     </video>
   </div>
-{%- elsif -%}
+{%- endif -%}
 
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -188,7 +188,7 @@
     {
       "type": "video/mp4",
       "id": "videoBackground",
-      "label": 
+      "label": "My Video Banner"
     },
     {
       "type": "image_picker",
