@@ -97,7 +97,7 @@
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p></p>",
+    "brand_description": "<p><\/p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -120,21 +120,27 @@
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
-        "settings": { "color_scheme": "scheme-1" }
+        "settings": {
+          "color_scheme": "scheme-1"
+        }
       },
       "main-password-footer": {
         "type": "main-password-footer",
-        "settings": { "color_scheme": "scheme-1" }
+        "settings": {
+          "color_scheme": "scheme-1"
+        }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#fdfbf7",
-          "background_gradient": "linear-gradient(180deg, rgba(240, 244, 236, 1), rgba(241, 235, 226, 1) 100%)",
+          "background": "#ffd3e2",
+          "background_gradient": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(241, 235, 226, 1))",
           "text": "#2e2a39",
-          "button": "#9b046f",
+          "button": "#4a6300",
           "button_label": "#fdfbf7",
           "secondary_button_label": "#2e2a39",
           "shadow": "#2e2a39"
@@ -143,10 +149,10 @@
       "scheme-2": {
         "settings": {
           "background": "#edffa7",
-          "background_gradient": "linear-gradient(0deg, rgba(82, 97, 37, 1), rgba(255, 224, 218, 1) 25%, rgba(215, 255, 137, 1) 100%)",
+          "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1) 50%, rgba(255, 211, 226, 1) 100%)",
           "text": "#2e2a39",
           "button": "#2e2a39",
-          "button_label": "#edffa7",
+          "button_label": "#fdfbf7",
           "secondary_button_label": "#2e2a39",
           "shadow": "#2e2a39"
         }
@@ -175,24 +181,24 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#526125ff",
+          "background": "#5e3653",
           "background_gradient": "linear-gradient(320deg, rgba(134, 16, 106, 1), rgba(94, 54, 83, 1) 100%)",
-          "text": "FDFBF7",
+          "text": "#fdfbf7",
           "button": "#fdfbf7",
-          "button_label": "#526125ff",
+          "button_label": "#5e3653",
           "secondary_button_label": "#fdfbf7",
           "shadow": "#2e2a39"
         }
       },
       "scheme-6": {
         "settings": {
-          "background": "#526125ff",
-          "background_gradient": "linear-gradient(320deg, rgba(134, 16, 106, 1), rgba(94, 54, 83, 1) 100%)",
-          "text": "#FDFBF7",
-          "button": "#FFA500",
-          "button_label": "#FFA500",
-          "secondary_button_label": "#FFA500",
-          "shadow": "#FFA500"
+          "background": "#4a6300",
+          "background_gradient": "",
+          "text": "#fdfbf7",
+          "button": "#ffa500",
+          "button_label": "#ffa500",
+          "secondary_button_label": "#ffa500",
+          "shadow": "#ffa500"
         }
       }
     }
@@ -353,7 +359,7 @@
       "sale_badge_color_scheme": "scheme-5",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p></p>",
+      "brand_description": "<p><\/p>",
       "brand_image_width": "100",
       "social_twitter_link": "",
       "social_facebook_link": "",
@@ -376,11 +382,15 @@
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
-          "settings": { "color_scheme": "scheme-1" }
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": { "color_scheme": "scheme-1" }
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
         }
       }
     }
