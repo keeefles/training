@@ -1,25 +1,27 @@
 {%- if section.settings.video_url != blank -%}
-    <div class="video-wrapper">
-        <iframe src="{{ section.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
-        <p>{{ section.settings.video_text }}</p>
-    </div>
+  <div class="video-wrapper">
+
+    {{ section.settings.video_url }}
+
+    <p>{{ section.settings.video_text }}</p>
+  </div>
 {%- endif -%}
 
 {% schema %}
-{
+  {
     "name": "Video Section",
     "settings": [
-        {
-            "type": "text",
-            "id": "video_url",
-            "label": "Video URL",
-            "default": "https://youtu.be/dQw4w9WgXcQ?si=cacrn2g1cJHbCcOS"
-        },
-        {
-            "type": "text",
-            "id": "video_text",
-            "label": "Video Text",
-            "default": "You just got rick rolled"
-        }
+      {
+        "type": "text",
+        "id": "video_url",
+        "label": "Video URL",
+        "default": "https://youtu.be/dQw4w9WgXcQ?si=cacrn2g1cJHbCcOS"
+      }, {
+        "type": "text",
+        "id": "video_text",
+        "label": "Video Text",
+        "default": "You just got rick rolled"
+      }
     ]
-}
+  }
+{% endschema %}

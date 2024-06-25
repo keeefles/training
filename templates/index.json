@@ -1,1 +1,154 @@
-{"sections":{"image-with-text":{"type":"image-with-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h1"}},"button":{"type":"button","settings":{"button_label":"Shop now","button_link":"shopify:\/\/collections\/all","button_style_secondary":false}}},"block_order":["heading","button"],"settings":{"height":"large","desktop_image_width":"large","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"scheme-1","color_scheme":"scheme-3","image_behavior":"none","mobile_content_alignment":"left","padding_top":0,"padding_bottom":0}},"featured-collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":true,"padding_top":56,"padding_bottom":68}}},"order":["image-with-text","featured-collection"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Browse our latest products<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_WmGAKy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate playtime to a whole new level with our top-notch toys for kids!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_WmGAKy",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/early-childhood-educator-with-toys-and-child_96aa0e07-158a-451e-8a05-60db21363659.jpg",
+        "video-url": "https:\/\/youtu.be\/dQw4w9WgXcQ?si=cacrn2g1cJHbCcOS",
+        "video-image-url": "",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "desktop_content_background_colour": "#FFFFFF",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-release",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 68
+      }
+    },
+    "multirow_3DQJ9Y": {
+      "type": "multirow",
+      "blocks": {
+        "row_xKLYmt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8a1d0a12c609379896718cadcf294f02.jpg",
+            "caption": "Lego",
+            "heading": "Pokemon",
+            "text": "<p>Unleash the Adventure! Embark on an adventure with our collection of high-quality Lego Sets.<\/p>",
+            "button_label": "Shop Lego",
+            "button_link": "shopify:\/\/collections\/lego"
+          }
+        },
+        "row_eBUPPr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11f6df278459411fc771fe5def3e1978.jpg",
+            "caption": "Mattel",
+            "heading": "Barbie Dolls",
+            "text": "<p>Elevate Your Playtime with Official Mattel Toys and Games!<\/p>",
+            "button_label": "Shop Mattel",
+            "button_link": "shopify:\/\/collections\/mattel"
+          }
+        },
+        "row_ji6QfJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/46ff92152d1a0e800c9192c5e2447775.jpg",
+            "caption": "Marvel",
+            "heading": "Captain America",
+            "text": "<p>Experience the Excitement of Adventure with Our Incredible Selection of Marvel Toys!<\/p>",
+            "button_label": "Shop Marvel",
+            "button_link": "shopify:\/\/collections\/marvel"
+          }
+        }
+      },
+      "block_order": [
+        "row_xKLYmt",
+        "row_eBUPPr",
+        "row_ji6QfJ"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image-with-text",
+    "featured-collection",
+    "multirow_3DQJ9Y"
+  ]
+}
