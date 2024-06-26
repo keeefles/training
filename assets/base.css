@@ -143,7 +143,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   z-index: 0;
 }
 
-.section + .section {
+/* .section + .section {
   margin-top: var(--spacing-sections-mobile);
 }
 
@@ -151,7 +151,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   .section + .section {
     margin-top: var(--spacing-sections-desktop);
   }
-}
+} */
 
 .element-margin-top {
   margin-top: 5rem;
