@@ -91,6 +91,13 @@
 
 .card-information {
   text-align: var(--text-alignment);
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* height: 100%; */
+  /* background: red; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* padding: 10px 0px 10px 0px; */
 }
 
 .card__media,
