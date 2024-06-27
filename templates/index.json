@@ -49,7 +49,7 @@
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "desktop_content_background_colour": "#FFFFFF",
+        "desktop_content_background_colour": "#ffffff",
         "content_layout": "overlap",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-3",
@@ -67,8 +67,8 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "new-release",
-        "products_to_show": 6,
+        "collection": "best-selling",
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
@@ -84,7 +84,9 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 56,
-        "padding_bottom": 68
+        "padding_bottom": 68,
+        "margin_top": 36,
+        "margin_bottom": 36
       }
     },
     "multirow_3DQJ9Y": {
@@ -105,11 +107,11 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/11f6df278459411fc771fe5def3e1978.jpg",
-            "caption": "Mattel",
+            "caption": "Barbie",
             "heading": "Barbie Dolls",
-            "text": "<p>Elevate Your Playtime with Official Mattel Toys and Games!<\/p>",
-            "button_label": "Shop Mattel",
-            "button_link": "shopify:\/\/collections\/mattel"
+            "text": "<p>Elevate Your Playtime with Official Barbie Toys and Games!<\/p>",
+            "button_label": "Shop Barbie",
+            "button_link": "shopify:\/\/collections\/barbie"
           }
         },
         "row_ji6QfJ": {
