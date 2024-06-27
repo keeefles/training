@@ -34,41 +34,20 @@
             {% if section.settings.height == 'adapt' and section.settings.image != blank %}
             style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
             {% endif %}>
-            {% comment %} {%- if section.settings.image != blank -%}
-                        {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
-                          {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
-                          {%- capture sizes -%}
-                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
-                        (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
-                      {%- endcapture -%}
-                        {%- else -%}
-                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                          {%- capture sizes -%}
-                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-                      {%- endcapture -%}                                                       
-                    {%- endif -%} {% endcomment %}
 
-
-            {% if section.settings.image and section.settings.video-url != blank %}
+            {% if section.settings.video-url != blank %}
               <video
                 autoplay
                 muted
-                loop="{{ section.settings.video-url }}">
+                loop>
                 <source src="{{ section.settings.video-url }}" type="video/mp4">
               </video>
-            {%- elsif section.settings.video-url == blank -%}
-              {{
-                section.settings.image | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-              }}
-            {%- else section.settings.video-url == blank -%}
-              <video
-                autoplay
-                muted
-                loop="{{ section.settings.video-url }}">
-                <source src="{{ section.settings.video-url }}" type="video/mp4">
-              </video>
+            {% elsif section.settings.image %}
+              {{ section.settings.image | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
+            {% else %}
+              <p>Add video or image to the settings.</p>
             {% endif %}
+
 
           {% comment %} {%- else -%} {% endcomment %}
           {% comment %} {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }} {% endcomment %}
@@ -133,11 +112,6 @@
         "label": "Video URL"
       },
       {
-        "type": "url",
-        "id": "video-image-url",
-        "label": "Video Image URL"
-      },
-      {
         "type": "select",
         "id": "height",
         "options": [
@@ -157,7 +131,8 @@
         ],
         "default": "adapt",
         "label": "t:sections.image-with-text.settings.height.label"
-      }, {
+      },
+      {
         "type": "select",
         "id": "desktop_image_width",
         "options": [
