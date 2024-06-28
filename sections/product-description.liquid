@@ -1,0 +1,17 @@
+<div class="product-description">
+  {{ product.description }}
+
+  <input type="checkbox" id="hide-text" />
+  <label for="hide-text">Hide text</label>
+
+  {% assign hide_text = false %}
+  {% if request.params.hide_text == 'on' %}
+    {% assign hide_text = true %}
+  {% endif %}
+
+  {% unless hide_text %}
+    <div id="text-description">
+      {{ text_description }}
+    </div>
+  {% endunless %}
+</div>

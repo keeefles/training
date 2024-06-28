@@ -1,0 +1,15 @@
+<input type="checkbox" id="hide-text" />
+<label for="hide-text">
+  Hide Text
+</label>
+
+{% assign hide-text = false %}
+{% if request.params.hide-text = 'on' %}
+  {% assign hide_text = true %}
+{% endif %}
+
+{% unless hide-text %}
+  <div id="show-description">
+    {{ show-description }}
+  </div>
+{% endunless %}

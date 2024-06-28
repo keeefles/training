@@ -36,16 +36,16 @@
             {% endif %}>
 
             {% if section.settings.video-url != blank %}
-              <video
-                autoplay
-                muted
-                loop>
-                <source src="{{ section.settings.video-url }}" type="video/mp4">
-              </video>
-            {% elsif section.settings.image %}
+              <div>
+                <video
+                  autoplay
+                  muted
+                  loop>
+                  <source src="{{ section.settings.video-url }}" type="video/mp4">
+                </video>
+              </div>
+            {% else section.settings.image %}
               {{ section.settings.image | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
-            {% else %}
-              <p>Add video or image to the settings.</p>
             {% endif %}
 
 

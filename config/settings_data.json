@@ -140,7 +140,7 @@
           "background": "#ffd3e2",
           "background_gradient": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
           "text": "#2e2a39",
-          "button": "#4a6300",
+          "button": "#2e2a39",
           "button_label": "#fdfbf7",
           "secondary_button_label": "#2e2a39",
           "shadow": "#2e2a39"
