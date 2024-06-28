@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "image-with-text": {
@@ -41,9 +32,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/early-childhood-educator-with-toys-and-child_96aa0e07-158a-451e-8a05-60db21363659.jpg",
-        "video-url": "https:\/\/youtu.be\/dQw4w9WgXcQ?si=cacrn2g1cJHbCcOS",
-        "video-image-url": "",
+        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35deeca0ff684e6fb5e86ad94dcfa87d.mp4",
         "height": "large",
         "desktop_image_width": "large",
         "layout": "text_first",
