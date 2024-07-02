@@ -570,20 +570,16 @@ video {
   z-index: 20;
 }
 
-.xz-\[90\] {
-  z-index: 90;
-}
-
 .xz-\[10000\] {
   z-index: 10000;
 }
 
-.xz-\[10\] {
-  z-index: 10;
-}
-
 .xz-\[1\] {
   z-index: 1;
+}
+
+.xz-\[90\] {
+  z-index: 90;
 }
 
 .xmx-auto {
@@ -609,11 +605,6 @@ video {
 
 .xw-full {
   width: 100%;
-}
-
-.xbg-green-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 
 .xobject-cover {
@@ -648,11 +639,6 @@ h6 {
 
   .lg\:xhidden {
     display: none;
-  }
-
-  .lg\:xbg-red-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(252 165 165 / var(--tw-bg-opacity));
   }
 }
 
