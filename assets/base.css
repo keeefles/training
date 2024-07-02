@@ -3460,3 +3460,11 @@ video {
   max-width: none !important;
   height: auto !important;
 }
+
+ol,
+ul,
+menu {
+  list-style: disc !important;
+  margin: 0;
+  padding: 0;
+}
