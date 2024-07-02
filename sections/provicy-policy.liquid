@@ -1,0 +1,30 @@
+{{ 'section-privacy-policy.css' | asset_url |  stylesheet_tag }};
+
+{% if section.settings.image != blank %}
+    <div class="section-parent">
+        <div style="position:absolute">do</div>
+    </div>
+{% endif %}
+
+{% schema %} 
+    {
+    "name": "t:sections.image-banner.name",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.image-banner.settings.image.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "t:sections.image-banner.settings.image_2.label"
+      }
+    ]
+    }
+{% endschema %}

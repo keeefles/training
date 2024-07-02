@@ -374,7 +374,7 @@ a.product__text {
 
 /* Product media */
 .product__media-list video {
-  border-radius: calc(var(--media-radius) - var(--media-border-width));
+  border-radius: calc(var(--media-radius) - var(--media-border-width)) !important;
 }
 
 @media screen and (max-width: 749px) {
