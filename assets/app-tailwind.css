@@ -10,3 +10,10 @@ h5,
 h6 {
   font-family: "fields", sans-serif;
 }
+ol,
+ul,
+menu {
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+}

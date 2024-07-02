@@ -626,6 +626,14 @@ h6 {
   font-family: "fields", sans-serif;
 }
 
+ol,
+ul,
+menu {
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 768px) {
   .md\:\!xtop-\[157px\] {
     top: 157px !important;
