@@ -144,11 +144,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_ck38LG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LArJHz": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/terms-and-conditions\" title=\"Terms and Conditions\">Terms and Conditions<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LArJHz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image-with-text",
     "featured-collection",
-    "multirow_3DQJ9Y"
+    "multirow_3DQJ9Y",
+    "rich_text_ck38LG"
   ]
 }
