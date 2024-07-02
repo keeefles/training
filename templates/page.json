@@ -66,10 +66,33 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_QDqXpg": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BYRCWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>uhu<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BYRCWW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_absolute_xyGjt9"
+    "image_banner_absolute_xyGjt9",
+    "rich_text_QDqXpg"
   ]
 }
