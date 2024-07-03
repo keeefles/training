@@ -1,0 +1,23 @@
+
+{
+    "name": "toytopia",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "tailwind": "npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/app.css --watch"
+    },
+    "author": "Aakeefah Jones",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.24",
+        "tailwindcss": "^3.4.4"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.4.0",
+        "@vitejs/plugin-vue": "^1.9.4",
+        "@vue/runtime-core": "^3.2.21",
+        "vite": "^2.6.13"
+    }
+}
