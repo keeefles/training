@@ -151,14 +151,13 @@
         "text_LArJHz": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"\/pages\/terms-and-conditions\" title=\"Terms and Conditions\">Terms and Conditions<\/a><\/p>"
+            "text": "<h3><a href=\"\/pages\/terms-and-conditions\" title=\"Terms and Conditions\">Terms and Conditions<\/a><\/h3>"
           }
         }
       },
       "block_order": [
         "text_LArJHz"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

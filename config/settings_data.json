@@ -12,7 +12,7 @@
     "logo_width": 70,
     "type_header_font": "harmonia_sans_n6",
     "heading_scale": 130,
-    "type_body_font": "harmonia_sans_n4",
+    "type_body_font": "trade_gothic_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 36,
@@ -146,11 +146,11 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffd3e2",
-          "background_gradient": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+          "background": "#ffffff",
+          "background_gradient": "",
           "text": "#2e2a39",
           "button": "#2e2a39",
-          "button_label": "#fdfbf7",
+          "button_label": "#73998b",
           "secondary_button_label": "#2e2a39",
           "shadow": "#2e2a39"
         }
