@@ -55,10 +55,51 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "announcement_bar_gKTKMY": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_wVeMyV": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "announcement_n8g9wi": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "announcement_Nz3Xmk": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_wVeMyV",
+        "announcement_n8g9wi",
+        "announcement_Nz3Xmk"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "announcement_bar_gKTKMY"
   ]
 }
