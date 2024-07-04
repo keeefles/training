@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+>>>>>>> 416bdf8593beaed615ddd8395cb832d6369399e4
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -46,10 +58,58 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+<<<<<<< HEAD
+=======
+    },
+    "announcement_bar_gKTKMY": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_wVeMyV": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "announcement_n8g9wi": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "announcement_Nz3Xmk": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_wVeMyV",
+        "announcement_n8g9wi",
+        "announcement_Nz3Xmk"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+>>>>>>> 416bdf8593beaed615ddd8395cb832d6369399e4
     }
   },
   "order": [
     "announcement-bar",
+<<<<<<< HEAD
     "header"
+=======
+    "header",
+    "announcement_bar_gKTKMY"
+>>>>>>> 416bdf8593beaed615ddd8395cb832d6369399e4
   ]
 }
