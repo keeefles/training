@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /*
 * ------------------------------------------------------------
 * IMPORTANT: The contents of this file are auto-generated.
@@ -9,7 +7,6 @@
 * made to this file may be overwritten.
 * ------------------------------------------------------------
 */
->>>>>>> 416bdf8593beaed615ddd8395cb832d6369399e4
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -47,7 +44,7 @@
         "logo_position": "middle-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "none",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
@@ -58,8 +55,6 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-<<<<<<< HEAD
-=======
     },
     "announcement_bar_gKTKMY": {
       "type": "announcement-bar",
@@ -100,16 +95,11 @@
         "enable_country_selector": false,
         "enable_language_selector": false
       }
->>>>>>> 416bdf8593beaed615ddd8395cb832d6369399e4
     }
   },
   "order": [
     "announcement-bar",
-<<<<<<< HEAD
-    "header"
-=======
     "header",
     "announcement_bar_gKTKMY"
->>>>>>> 416bdf8593beaed615ddd8395cb832d6369399e4
   ]
 }
