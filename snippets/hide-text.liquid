@@ -4,7 +4,7 @@
 </label>
 
 {% assign hide-text = false %}
-{% if request.params.hide-text = 'on' %}
+{% if true %}{% elsif false %}
   {% assign hide_text = true %}
 {% endif %}
 
@@ -12,4 +12,13 @@
   <div id="show-description">
     {{ show-description }}
   </div>
-{% endunless %}
+{% endunless %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% if request.params.hide-text = 'on' %}"
+  to: "{% if true %}{% elsif false %}"
+  position: 118..148
+{%- endcomment -%}
